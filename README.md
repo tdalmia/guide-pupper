@@ -1,5 +1,7 @@
 # guide-pupper
 
+Code: guide_pupper.py
+
 Guide Pupper: A seeing-eye quadruped robot for the visually impaired. Our robot, named Pupper, is meant to follow a path, detecting visual obstacles and following voice commands along the way. 
 
 Pupper is programed to go forward in a straight line upon detecting an obstacle with its mounted camera. The bounding box of the obstacle is identified, and Pupper will move to the right and around the obstacle. Pupper will vocalize directions via a speaker for the visually impaired person to follow along as it avoids the obstacle. It will then return to the original path. 
