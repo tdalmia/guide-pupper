@@ -1,6 +1,6 @@
 # guide-pupper
 
-Code: guide_pupper.py
+## Description 
 
 Guide Pupper: A seeing-eye quadruped robot for the visually impaired. Our robot, named Pupper, is meant to follow a path, detecting visual obstacles and following voice commands along the way. 
 
@@ -11,3 +11,23 @@ Pupper is also equipped with a microphone to listen to voice commands from its o
 We presented Guide Pupper as our final project for Stanford's CS 123: A Hands-On Introduction to Building AI-Enabled Robots. We thank the course staff for all of the materials and guidance! 
 
 -- Group 2: Tushar Dalmia, Alex Gu, Neha Vinjapuri, Renee Duarte White, Cecelia Wu, Kevin Zhu
+
+## Dependencies & Instructions
+
+Our main code for the project can be found in guide_pupper.py. 
+
+To run our code, you can use the following steps: 
+* SSH into Pupper. 
+* Install pygame, sounddevice, and openai-whisper via pip.
+* Download Foxglove to your desktop and connect to Pupper.
+* Pair a microphone and transmitter to Pupper.
+* Add an OpenAI Whisper API key into guide_pupper.py line 43. 
+* Run the run.sh file.
+* Run the guide_pupper.py file. 
+
+Upon executing the run.sh file, you should see an image of what Pupper sees in Foxglove. Pupper's motors should also be in their default position with some resistance, ready to walk. 
+
+Upon running the guide_pupper.py file, Pupper will begin to walk straight until detecting an obstacle, from which it will reroute. You can speak into the microphone when the terminal logs show "Recording audio...". 
+
+
+
